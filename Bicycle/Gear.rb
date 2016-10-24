@@ -3,6 +3,7 @@ class Gear
   
   def initialize(args)
     #Hago un merge entre los valores por defecto y los pasados por parametro
+    
     args = defaults.merge(args)
     
     @chainring = args[:chainring]
